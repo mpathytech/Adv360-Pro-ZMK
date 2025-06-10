@@ -31,16 +31,23 @@
             require-prior-idle-ms = <100>;
         };
 
-        Escape {
+        Escape1 {
             bindings = <&kp ESCAPE>;
-            key-positions = <30 31>;
+            key-positions = <31 32>;
             timeout-ms = <20>;
             require-prior-idle-ms = <100>;
         };
 
         CapsLock {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <31 32>;
+            key-positions = <31 30>;
+            timeout-ms = <20>;
+            require-prior-idle-ms = <100>;
+        };
+
+        Escape2 {
+            bindings = <&kp ESCAPE>;
+            key-positions = <41 42>;
             timeout-ms = <20>;
             require-prior-idle-ms = <100>;
         };
